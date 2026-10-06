@@ -5,5 +5,42 @@
 }
 
 body {
-    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 20px 40px;
+}
+
+#brand {
+    color: blanchedalmond;
+    font-size: 175%;
+    font-family: cursive;
+    align-items: flex-start;
+}
+
+.link {
+    align-items: flex-end;
+}
+
+.links {
+    text-decoration: none;
+    color: azure;
+    font-size: 90%;
+    margin: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#cart {
+    background-color: goldenrod;
+    font-size: 100%;
+    padding: auto;
+    width: 60px;
+    border-radius: 30px;
 }
